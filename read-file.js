@@ -8,7 +8,6 @@ readFile('./customer-data.csv', 'utf-8', (err, fileContent) => {
 	const jsonObj = csvjson.toObject(fileContent);
 
 	// iterates over array elements
-	for (let result of jsonObj) {
-		console.log(result);
-	}
+	//for (let result of jsonObj) {
+	console.log(jsonObj);
 });
